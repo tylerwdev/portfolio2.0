@@ -18,8 +18,12 @@ footer {
     /* flex: 1 0 auto; */
 }
 
-.nav-side-color {
-
+.port-mobile {
+    border: solid thin #000000;
+    border-radius: 0.2rem;
+    background-color: rgba(121, 134, 203, 0.7);
+    color: #000000;
+    /*display: inline-block;*/
 }
 
 
@@ -39,6 +43,14 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .port-mobile {
+        border: solid thin #000000;
+        border-radius: 0.2rem;
+        background-color: rgba(121, 134, 203, 0.95);
+        color: #000000;
+        /*display: inline-block;*/
     }
 
 }
