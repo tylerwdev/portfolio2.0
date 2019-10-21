@@ -18,13 +18,31 @@ footer {
     /* flex: 1 0 auto; */
 }
 
-.port-mobile {
+#form-title-text1 {
+    color: black;
+}
+#form-title-text2 {
+    color: black;
+}
+#form-title-text3 {
+    color: black;
+}
+#form-title-text4 {
+    color: black;
+}
+#form-title-text5 {
+    color: black;
+}
+
+.contact-box {
     border: solid thin #000000;
     border-radius: 0.2rem;
-    background-color: rgba(121, 134, 203, 0.7);
+    background-color: rgba(175, 172, 185, 0.7);
     color: #000000;
     /*display: inline-block;*/
 }
+
+
 
 
 
