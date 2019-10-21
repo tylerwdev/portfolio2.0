@@ -7,4 +7,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.modal').modal();
 });
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
 // *END* This is where JS goes for making css component styles work
