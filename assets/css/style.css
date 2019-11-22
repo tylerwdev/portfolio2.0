@@ -1,6 +1,13 @@
-footer {
+ /* footer {
     position: static;
-}
+
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-right: 1%; 
+    margin-bottom: 0.5%;
+}  */
 
 .carousel-container {
     /*background-image: url("../images/background/88246.jpg");*/
@@ -88,6 +95,10 @@ footer {
         display: none;
     }
 
+    #big-screen-footer {
+        position:fixed;bottom:0;left:0;width:100%;
+    }
+
 }
 
 @media screen and (min-width: 601px){
@@ -115,6 +126,11 @@ footer {
         display: none;
     }
 
+    #big-screen-footer {
+        position:fixed;bottom:0;left:0;width:100%;
+    }
+    
+
 }
 
 @media screen and (min-width: 993px){
@@ -124,6 +140,10 @@ footer {
 
     #car-h4-hide {
         display: none;
+    }
+
+    #big-screen-footer {
+        position:fixed;bottom:0;left:0;width:100%;
     }
 
 }
