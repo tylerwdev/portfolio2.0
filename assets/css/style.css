@@ -103,10 +103,6 @@
         display: none;
     }
 
-    .header-test {
-        display: none;
-    }
-
 }
 
 @media screen and (min-width: 601px){
@@ -146,10 +142,6 @@
         display: none;
     }
 
-    .header-test {
-        display: none;
-    }
-
 }
 
 @media screen and (min-width: 993px){
@@ -178,20 +170,12 @@
     #big-screen4 {
         display: contents;
     }
-
-    .header-test {
-        display: contents;
-    }
   
 }
 
 @media screen and (min-width: 1201px){
     .carousel {
         display: none;
-    }
-
-    .header-test {
-        display: contents;
     }
 
 }
