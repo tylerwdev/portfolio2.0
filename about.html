@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,66 +11,80 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <div class="nav-wrapper blue accent-2">
-            <a href="index.html" class="brand-logo">WebDevNow</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">Main</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More to come...</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <ul class="sidenav blue lighten-5" id="mobile-demo">
-        <li><a href="index.html">Main</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More to come...</a>
-        </li>
-        <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Credit</a></li>
-    </ul>
-
-    <!-- Modal Structure 1  CREDIT FOR BACKGROUND IMAGE-->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4 class="blue-text">Contributors</h4>
-            <a href="https://www.freepik.com/free-photos-vectors/background" target="_blank">Background vectors created by rawpixel.com - www.freepik.com</a>
-        </div>
-    </div>
-</header>
-
-<div class="main-container">
-
-</div>
-
-    <footer>
-        <nav class="nav-color blue accent-2">
-            <div class="footer-copyright row">
-                <div class="col m6 push-m3 s12 center-align darken-4">
-                    © 2019 Copyright
-                </div>
-                <div class="col m6 hide-on-small-only hide-on-med-and-down right-align">
-                    <a class="waves-effect waves-light btn modal-trigger blue darken-3" href="#modal1">Credit</a>
-                </div>
+    <header>
+        <nav>
+            <div class="nav-wrapper blue accent-2">
+                <a href="index.html" class="brand-logo">WebDevNow</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More to come...</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-    </footer>
+
+        <ul class="sidenav blue lighten-5" id="mobile-demo">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">More to come...</a>
+            </li>
+            <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Credit</a></li>
+        </ul>
+
+        <!-- Modal Structure 1  CREDIT FOR BACKGROUND IMAGE-->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4 class="blue-text">Contributors</h4>
+                <a href="https://www.freepik.com/free-photos-vectors/background" target="_blank">Background vectors
+                    created by rawpixel.com - www.freepik.com</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="page-container">
+        <div id="content-wrap">
+
+            <div class="main-container">
+
+            </div>
+
+            <footer id="footer">
+                <nav>
+                    <div class="nav-wrapper blue accent-2">
+                        <a href="#" class="brand-logo center"> © 2019</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <!-- <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li> -->
+                            <a class="waves-effect waves-light btn modal-trigger blue darken-3"
+                                href="#modal1">Credit</a>
+                        </ul>
+
+                    </div>
+                </nav>
+            </footer>
+
+            <!-- content wrap end div -->
+        </div>
+        <!-- page container end div -->
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/js/app.js"></script>
 
 </body>
+
 </html>
