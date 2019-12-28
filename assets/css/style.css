@@ -103,6 +103,10 @@
         display: none;
     }
 
+    #big-screen5 {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 601px){
@@ -142,6 +146,10 @@
         display: none;
     }
 
+    #big-screen5 {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 993px){
@@ -168,6 +176,10 @@
     }
 
     #big-screen4 {
+        display: contents;
+    }
+
+    #big-screen5 {
         display: contents;
     }
   
