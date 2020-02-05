@@ -1,3 +1,8 @@
+.space-test{
+    width: 80%;
+    height: 80%;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh;
