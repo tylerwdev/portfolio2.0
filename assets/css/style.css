@@ -64,6 +64,7 @@
 
 .contact-box-stuff {
     display: flex;
+    justify-content: center;
     align-content: center;
     flex-direction: column;
 }
@@ -185,6 +186,11 @@
         width: 85%;
         padding-top: 2%;
     }
+
+    /* .contact-box-stuff {
+        display: flex;
+        justify-content: space-evenly;
+    } */
 
 
     .carousel {
