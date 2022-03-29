@@ -124,26 +124,6 @@
     color: #000000;
     /*display: inline-block;*/
   }
-
-  #big-screen1 {
-    display: none;
-  }
-
-  #big-screen2 {
-    display: none;
-  }
-
-  #big-screen3 {
-    display: none;
-  }
-
-  #big-screen4 {
-    display: none;
-  }
-
-  #big-screen5 {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 993px) {
@@ -172,26 +152,6 @@
 
   #car-h4-hide {
     display: none;
-  }
-
-  #big-screen1 {
-    display: contents;
-  }
-
-  #big-screen2 {
-    display: contents;
-  }
-
-  #big-screen3 {
-    display: contents;
-  }
-
-  #big-screen4 {
-    display: contents;
-  }
-
-  #big-screen5 {
-    display: contents;
   }
 }
 
