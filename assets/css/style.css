@@ -52,6 +52,10 @@
   margin-bottom: 2%;
 }
 
+#contact-form-button {
+  margin-bottom: 1%;
+}
+
 @media screen and (max-width: 600px) {
   body {
     background-image: url("../images/background/3132.jpg");

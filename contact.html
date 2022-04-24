@@ -78,6 +78,11 @@
                     >LinkedIn profile</a
                   >
                 </p>
+
+                <!-- <a
+                  class="btn-floating btn-large waves-effect waves-light blue accent-2"
+                  ><i class="material-icons">add</i></a
+                > -->
               </div>
             </div>
 
@@ -85,40 +90,68 @@
 
             <!-- Hiding this for now until functional -->
 
-            <!-- <form class="col s12 contact-box">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">account_circle</i>
-                                <input id="first_name" type="text" class="validate">
-                                <label id="form-title-text1" for="first_name">First Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">account_circle</i>
-                                <input id="last_name" type="text" class="validate contact-text-w">
-                                <label id="form-title-text2" for="last_name">Last Name</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">email</i>
-                                <input id="email" type="email" class="validate contact-text-w">
-                                <label id="form-title-text3" for="email">Email</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">phone</i>
-                                <input id="icon_telephone" type="tel" class="validate contact-text-w">
-                                <label id="form-title-text4" for="icon_telephone">Phone Number</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">message</i>
-                                <textarea id="textarea2" class="materialize-textarea contact-text-w"
-                                    data-length="500"></textarea>
-                                <label id="form-title-text5" for="textarea2">Message</label>
-                            </div>
-                        </div>
-                    </form> -->
+            <form
+              action="POST"
+              data-netlify="true"
+              class="col s12 m6 contact-box"
+            >
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="first_name" type="text" class="validate" />
+                  <label id="form-title-text1" for="first_name">Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input
+                    id="icon_telephone"
+                    type="tel"
+                    class="validate contact-text-w"
+                  />
+                  <label id="form-title-text4" for="icon_telephone"
+                    >Phone Number</label
+                  >
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input
+                    id="email"
+                    type="email"
+                    class="validate contact-text-w"
+                  />
+                  <label id="form-title-text3" for="email">Email</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">message</i>
+                  <textarea
+                    id="textarea2"
+                    class="materialize-textarea contact-text-w"
+                    data-length="500"
+                  ></textarea>
+                  <label id="form-title-text5" for="textarea2">Message</label>
+                </div>
+              </div>
+
+              <div class="field">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+
+              <button
+                class="btn waves-effect waves-light blue darken-3"
+                type="submit"
+                name="action"
+                id="contact-form-button"
+              >
+                Send
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
 
             <!-- Hiding form above until functional -->
           </div>
