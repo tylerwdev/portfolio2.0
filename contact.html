@@ -98,7 +98,12 @@
               <div class="row">
                 <div class="input-field col s6">
                   <i class="material-icons prefix">account_circle</i>
-                  <input id="first_name" type="text" class="validate" />
+                  <input
+                    id="first_name"
+                    type="text"
+                    name="name"
+                    class="validate"
+                  />
                   <label id="form-title-text1" for="first_name">Name</label>
                 </div>
                 <div class="input-field col s6">
@@ -106,6 +111,7 @@
                   <input
                     id="icon_telephone"
                     type="tel"
+                    name="telephone"
                     class="validate contact-text-w"
                   />
                   <label id="form-title-text4" for="icon_telephone"
@@ -120,6 +126,7 @@
                   <input
                     id="email"
                     type="email"
+                    name="email"
                     class="validate contact-text-w"
                   />
                   <label id="form-title-text3" for="email">Email</label>
@@ -131,6 +138,7 @@
                   <i class="material-icons prefix">message</i>
                   <textarea
                     id="textarea2"
+                    name="message"
                     class="materialize-textarea contact-text-w"
                     data-length="500"
                   ></textarea>
