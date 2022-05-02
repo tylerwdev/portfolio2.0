@@ -19,6 +19,12 @@
   margin-right: 1%;
 }
 
+#logo-text {
+  margin-left: 1%;
+  font-family: 'Rubik', sans-serif;
+  font-size: large;
+}
+
 
 #form-title-text1 {
   color: black;
