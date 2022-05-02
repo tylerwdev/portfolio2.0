@@ -14,6 +14,12 @@
   height: 2.5rem; /* Footer height */
 }
 
+.footer-icons {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
 #form-title-text1 {
   color: black;
 }
@@ -35,10 +41,10 @@
   border-radius: 0.2rem;
   background-color: rgba(175, 172, 185, 0.7);
   color: #000000;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-left: 2%;
   margin-right: 2%;
-  /*display: inline-block;*/
+  /* display: inline-block; */
 }
 
 .contact-box-stuff {
@@ -46,6 +52,7 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 #port-margin {
