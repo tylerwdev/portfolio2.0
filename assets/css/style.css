@@ -43,17 +43,27 @@
 }
 
 .contact-box {
-  border: solid thin #000000;
   border-radius: 0.2rem;
   background-color: rgba(175, 172, 185, 0.7);
   color: #000000;
   margin-top: 3%;
   margin-left: 2%;
   margin-right: 2%;
-  /* display: inline-block; */
 }
 
-.contact-box-stuff {
+.about-box {
+  background-color: rgba(175, 172, 185, 0.7);
+}
+
+.text-box-small {
+  border-radius: 0.2rem;
+  color: #000000;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.contact-box-stuff, .text-box {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -71,7 +81,7 @@
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: url("../images/background/3132.jpg");
+    background-image: url("../images/background/dark-honeycomb.png");
     /* Full height */
     height: 100%;
 
@@ -114,7 +124,7 @@
 
 @media screen and (min-width: 601px) {
   body {
-    background-image: url("../images/background/3132.jpg");
+    background-image: url("../images/background/shattered.png");
     /* Full height */
     height: 100%;
 
